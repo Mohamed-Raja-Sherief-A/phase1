@@ -12,6 +12,8 @@ public class Calculator {
 		Calculator cal=new Calculator();
 		cal.Addition(num1, num2);
 		cal.Substraction(num1, num2);
+		cal.Multiplication(num1, num2);
+		cal.Division(num1, num2);
 		
 		
 	}
@@ -27,6 +29,16 @@ public class Calculator {
 		System.out.println("Addition result:"+result);
 	}
 	//multiplaication
+	public void Multiplication(int num1,int num2)
+	{
+		int result=num1*num2;
+		System.out.println("Addition result:"+result);
+	}
 	//division
+	public void Division(int num1,int num2)
+	{
+		int result=num1/num2;
+		System.out.println("Addition result:"+result);
+	}
 
 }
