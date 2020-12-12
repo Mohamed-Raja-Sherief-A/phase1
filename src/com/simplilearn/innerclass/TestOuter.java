@@ -4,7 +4,7 @@ package com.simplilearn.innerclass;
 public class TestOuter {
 	
 	private int data = 100;
-	public String msg = " Today is good day !";
+	public static String msg = " Today is good day !";
 	
 	//  inner class -> non static 
 	class TestInner {
